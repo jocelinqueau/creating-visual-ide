@@ -1671,6 +1671,10 @@ const tokens = {
     "value": "1536px",
     "variable": "var(--breakpoints-2xl)"
   },
+  "colors.surface.one": {
+    "value": "var(--colors-surface-one)",
+    "variable": "var(--colors-surface-one)"
+  },
   "spacing.-1": {
     "value": "calc(var(--spacing-1) * -1)",
     "variable": "var(--spacing-1)"
@@ -1846,6 +1850,10 @@ const tokens = {
   "colors.colorPalette.950": {
     "value": "var(--colors-color-palette-950)",
     "variable": "var(--colors-color-palette-950)"
+  },
+  "colors.colorPalette.one": {
+    "value": "var(--colors-color-palette-one)",
+    "variable": "var(--colors-color-palette-one)"
   }
 }
 
