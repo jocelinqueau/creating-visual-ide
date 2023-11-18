@@ -1,5 +1,14 @@
-export const Iframe = (props:any) => {
+interface IframeProps {
+  src: string;
+  width: string;
+  height: string;
+  [k: string]: any;
+}
+
+export const Iframe = ({src, width, height, ...rest}:IframeProps) => {
   return (
-    <iframe {...props}/>
+    <div style={{padding: '20px'}}>
+      <iframe src={src} width={width} height={height} {...rest}/>
+    </div>
   )
 }

@@ -14,10 +14,12 @@
   "dependencies": {
     "@codesandbox/sandpack-themes": "^2.0.21",
     "@mdx-js/rollup": "^3.0.0",
+    "@pandacss/preset-panda": "^0.18.3",
     "@uiw/react-codemirror": "^4.21.20",
     "lucide-react": "^0.292.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.6"
   },
   "devDependencies": {
     "@pandacss/dev": "^0.17.5",

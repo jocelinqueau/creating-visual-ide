@@ -152,7 +152,7 @@ const tokens = {
     "variable": "var(--fonts-serif)"
   },
   "fonts.mono": {
-    "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "value": "var(--fonts-mono)",
     "variable": "var(--fonts-mono)"
   },
   "letterSpacings.tighter": {
@@ -1671,9 +1671,117 @@ const tokens = {
     "value": "1536px",
     "variable": "var(--breakpoints-2xl)"
   },
-  "colors.surface.one": {
-    "value": "var(--colors-surface-one)",
-    "variable": "var(--colors-surface-one)"
+  "transitions.default": {
+    "value": "var(--transitions-default)",
+    "variable": "var(--transitions-default)"
+  },
+  "size.headerHeight": {
+    "value": "var(--size-header-height)",
+    "variable": "var(--size-header-height)"
+  },
+  "size.height": {
+    "value": "var(--size-height)",
+    "variable": "var(--size-height)"
+  },
+  "colors.surface1": {
+    "value": "var(--colors-surface1)",
+    "variable": "var(--colors-surface1)"
+  },
+  "colors.surface2": {
+    "value": "var(--colors-surface2)",
+    "variable": "var(--colors-surface2)"
+  },
+  "colors.surface3": {
+    "value": "var(--colors-surface3)",
+    "variable": "var(--colors-surface3)"
+  },
+  "colors.disabled": {
+    "value": "var(--colors-disabled)",
+    "variable": "var(--colors-disabled)"
+  },
+  "colors.base": {
+    "value": "var(--colors-base)",
+    "variable": "var(--colors-base)"
+  },
+  "colors.clickable": {
+    "value": "var(--colors-clickable)",
+    "variable": "var(--colors-clickable)"
+  },
+  "colors.hover": {
+    "value": "var(--colors-hover)",
+    "variable": "var(--colors-hover)"
+  },
+  "colors.accent": {
+    "value": "var(--colors-accent)",
+    "variable": "var(--colors-accent)"
+  },
+  "colors.error": {
+    "value": "var(--colors-error)",
+    "variable": "var(--colors-error)"
+  },
+  "colors.errorSurface": {
+    "value": "var(--colors-error-surface)",
+    "variable": "var(--colors-error-surface)"
+  },
+  "colors.warning": {
+    "value": "var(--colors-warning)",
+    "variable": "var(--colors-warning)"
+  },
+  "colors.warningSurface": {
+    "value": "var(--colors-warning-surface)",
+    "variable": "var(--colors-warning-surface)"
+  },
+  "colors.syntax.plain": {
+    "value": "var(--colors-syntax-plain)",
+    "variable": "var(--colors-syntax-plain)"
+  },
+  "colors.syntax.comment": {
+    "value": "var(--colors-syntax-comment)",
+    "variable": "var(--colors-syntax-comment)"
+  },
+  "colors.syntax.keyword": {
+    "value": "var(--colors-syntax-keyword)",
+    "variable": "var(--colors-syntax-keyword)"
+  },
+  "colors.syntax.definition": {
+    "value": "var(--colors-syntax-definition)",
+    "variable": "var(--colors-syntax-definition)"
+  },
+  "colors.syntax.punctuation": {
+    "value": "var(--colors-syntax-punctuation)",
+    "variable": "var(--colors-syntax-punctuation)"
+  },
+  "colors.syntax.property": {
+    "value": "var(--colors-syntax-property)",
+    "variable": "var(--colors-syntax-property)"
+  },
+  "colors.syntax.tag": {
+    "value": "var(--colors-syntax-tag)",
+    "variable": "var(--colors-syntax-tag)"
+  },
+  "colors.syntax.static": {
+    "value": "var(--colors-syntax-static)",
+    "variable": "var(--colors-syntax-static)"
+  },
+  "colors.syntax.string": {
+    "value": "var(--colors-syntax-string)",
+    "variable": "var(--colors-syntax-string)"
+  },
+  "fonts.body": {
+    "value": "var(--fonts-body)",
+    "variable": "var(--fonts-body)"
+  },
+  "fonts.size": {
+    "value": "var(--fonts-size)",
+    "variable": "var(--fonts-size)"
+  },
+  "fonts.lineHeight": {
+    "value": "var(--fonts-line-height)",
+    "variable": "var(--fonts-line-height)"
+  },
+  "border.radius": {
+    "value": "var(--border-radius)",
+    "variable": "var(--border-radius)"
   },
   "spacing.-1": {
     "value": "calc(var(--spacing-1) * -1)",
@@ -1851,9 +1959,41 @@ const tokens = {
     "value": "var(--colors-color-palette-950)",
     "variable": "var(--colors-color-palette-950)"
   },
-  "colors.colorPalette.one": {
-    "value": "var(--colors-color-palette-one)",
-    "variable": "var(--colors-color-palette-one)"
+  "colors.colorPalette.plain": {
+    "value": "var(--colors-color-palette-plain)",
+    "variable": "var(--colors-color-palette-plain)"
+  },
+  "colors.colorPalette.comment": {
+    "value": "var(--colors-color-palette-comment)",
+    "variable": "var(--colors-color-palette-comment)"
+  },
+  "colors.colorPalette.keyword": {
+    "value": "var(--colors-color-palette-keyword)",
+    "variable": "var(--colors-color-palette-keyword)"
+  },
+  "colors.colorPalette.definition": {
+    "value": "var(--colors-color-palette-definition)",
+    "variable": "var(--colors-color-palette-definition)"
+  },
+  "colors.colorPalette.punctuation": {
+    "value": "var(--colors-color-palette-punctuation)",
+    "variable": "var(--colors-color-palette-punctuation)"
+  },
+  "colors.colorPalette.property": {
+    "value": "var(--colors-color-palette-property)",
+    "variable": "var(--colors-color-palette-property)"
+  },
+  "colors.colorPalette.tag": {
+    "value": "var(--colors-color-palette-tag)",
+    "variable": "var(--colors-color-palette-tag)"
+  },
+  "colors.colorPalette.static": {
+    "value": "var(--colors-color-palette-static)",
+    "variable": "var(--colors-color-palette-static)"
+  },
+  "colors.colorPalette.string": {
+    "value": "var(--colors-color-palette-string)",
+    "variable": "var(--colors-color-palette-string)"
   }
 }
 

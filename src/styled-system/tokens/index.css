@@ -38,7 +38,7 @@
   --line-heights-loose: 2;
   --fonts-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fonts-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --fonts-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-mono: "Fira Mono", "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace;
   --letter-spacings-tighter: -0.05em;
   --letter-spacings-tight: -0.025em;
   --letter-spacings-normal: 0em;
@@ -418,7 +418,41 @@
   --breakpoints-lg: 1024px;
   --breakpoints-xl: 1280px;
   --breakpoints-2xl: 1536px;
-  --colors-surface-one: #fff
+  --transitions-default: 150ms ease;
+  --size-header-height: 40px;
+  --size-height: 300px;
+  --colors-surface1: #ffffff;
+  --colors-surface2: #EFEFEF;
+  --colors-surface3: #F3F3F3;
+  --colors-disabled: #C5C5C5;
+  --colors-base: #323232;
+  --colors-clickable: #808080;
+  --colors-hover: #4D4D4D;
+  --colors-accent: #3973E0;
+  --colors-error: #EA3323;
+  --colors-error-surface: #FCF1F0;
+  --colors-warning: #6A4516;
+  --colors-warning-surface: #FEF2C0;
+  --colors-syntax-plain: #151515;
+  --colors-syntax-keyword: #7C5AE3;
+  --colors-syntax-definition: #85A600;
+  --colors-syntax-punctuation: #3B3B3B;
+  --colors-syntax-property: #3B3B3B;
+  --colors-syntax-tag: #0971F1;
+  --colors-syntax-static: #3B3B3B;
+  --colors-syntax-string: #2E6BD0;
+  --fonts-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-size: 13px;
+  --fonts-line-height: 20px;
+  --border-radius: 4px
+}
+
+{
+  --colors-syntax-comment: #999
+}
+
+{
+  --colors-syntax-comment: italic
 }
   }
   
